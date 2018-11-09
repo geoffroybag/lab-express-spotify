@@ -1,0 +1,136 @@
+/* *{
+    border: 1px solid black;
+} */
+.artist-search{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.one-artist{
+    display: flex;
+    flex-direction: column;
+    width : 30%;
+    align-items: center;
+    margin : 15px 5px;
+}
+
+.one-artist h3,p{
+    margin : 0;
+}
+
+.one-artist img{
+    width : 100%;
+}
+
+/* --------------------------------------- */
+
+.album-search{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.one-album{
+    display: flex;
+    flex-direction: column;
+    width : 30%;
+    align-items: center;
+    margin : 15px 5px;
+}
+
+.one-album h3,p{
+    margin : 0;
+}
+
+.one-album img{
+    width : 100%;
+}
+
+
+/* --------------------------------------- */
+
+.track-search{
+    display : flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.one-track{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width : 100%;
+    align-items: center;
+    background-color:#f6f6f6;
+    margin-bottom : 3px;
+    height : 60px;
+}
+
+.one-track h3,p{
+    margin : 0;
+}
+
+.track-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    height : 100px;
+    align-items: center;
+}
+
+.track-header h1{
+    margin : 0 30px;
+    color : white;
+}
+
+/* ------------------------------------------------ */
+
+.home-container{
+    background-image: url("https://static.pexels.com/photos/167605/pexels-photo-167605.jpeg");
+    height : 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container{
+    background-color: lightgray;
+    display : flex;
+    flex-direction : column;
+    height : 10%;
+    width : 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container button{
+    background-color: tomato;
+}
+
+
+footer {
+    background-color: darkblue;
+    color : white;
+    position : fixed; 
+    bottom : 0;
+    left : 0;
+    width : 100%;
+    text-align: center;
+    padding : 10px;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.footer p{
+    color : white;
+}
+.footer a{
+    color : white;
+    text-decoration: none;
+    font-weight: bold;
+    margin : 10px;
+}
